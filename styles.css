@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #ffd700; /* Золотой цвет для текста */
+}
+
+#coin {
+  width: 100px;
+  cursor: pointer;
+  animation: spin 5s linear infinite; /* Анимация вращения */
+}
+
+#coins {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
